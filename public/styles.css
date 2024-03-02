@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+#Value {
+    color: #ff0000;
+    text-decoration: underline;
+}
+
+#Voltage {
+    color: #007bff;
+    text-decoration: underline;
+}
+
+#valueChart,
+#voltageChart {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 1px solid #000;
+}
+
+#value {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#voltage {
+    font-size: 18px;
+    font-weight: bold;
+}
+h1 {
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+#Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+#lowestvoltage {
+    margin-bottom: 20px;
+}
+
+.separator {
+    width: 2px;
+    height: 300px;
+    background-color: #000;
+    margin: 0 20px;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 1;
+    text-align: center;
+}
